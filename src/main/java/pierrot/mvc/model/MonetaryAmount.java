@@ -17,7 +17,13 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @SuppressWarnings("serial")
 public class MonetaryAmount implements Serializable {
 
+	
 	private BigDecimal value;
+
+	public MonetaryAmount() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 
 	/**
 	 * Create a new monetary amount from the specified value.
